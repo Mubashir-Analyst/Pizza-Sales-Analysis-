@@ -1,21 +1,16 @@
+# Project Description: Pizza Sales Analysis Using SQL and Power BI
 
-# Project Title: Sales Performance Dashboard using SQL, Power BI, and Excel
-# Project Description:
+# Introduction:
+The Pizza Sales Analysis project aims to provide valuable insights and actionable information to a pizza restaurant chain by analyzing their sales data. This project combines the power of SQL for data manipulation and extraction and Power BI for data visualization, allowing the stakeholders to make informed decisions, identify trends, and optimize their business strategies.
 
-In this data analyst project, I designed and developed a comprehensive Sales Performance Dashboard using a combination of SQL for data extraction and transformation, Power BI for visualization, and Excel for additional analysis. The primary objective of the project was to provide actionable insights to the sales team, enabling them to make informed decisions and enhance overall sales performance.
+# Objective: 
+The main objective of this project is to analyze the pizza sales data to gain a comprehensive understanding of the restaurant's performance, identify top-selling products, peak sales periods, customer preferences, and geographic trends. By leveraging SQL and Power BI, the project will create interactive dashboards and reports that facilitate better decision-making and contribute to the restaurant chain's overall growth and success.
 
-# Project Highlights:
-
-Data Collection and Integration (SQL): I extracted sales data from multiple sources, including transaction databases and spreadsheets, using SQL queries. I ensured data accuracy, consistency, and completeness by performing data cleansing and joining relevant tables.
-
-Data Modeling and Transformation (SQL): Utilizing SQL, I transformed raw data into a structured format suitable for analysis. This involved aggregating sales data by various dimensions such as time, products, regions, and customer segments, creating a robust foundation for the dashboard.
-
-Power BI Dashboard Design: I designed a user-friendly and interactive Sales Performance Dashboard in Power BI, featuring insightful visualizations, charts, and key performance indicators (KPIs). The dashboard provided a holistic view of sales trends, product performance, regional comparisons, and customer behavior.
-
-Excel Integration: To augment the dashboard's capabilities, I integrated Excel functionalities for advanced analysis. This allowed users to perform what-if scenarios, perform deeper data exploration, and create custom reports based on the dashboard's underlying data.
-
-Automation and Data Refresh: I established an automated process to refresh the data in the dashboard at regular intervals, ensuring that the sales team always had access to the most up-to-date information without manual intervention.
-
-User Training and Documentation: I conducted training sessions for the sales team on how to use the dashboard effectively, interpret the visualizations, and leverage Excel features. Additionally, I provided comprehensive documentation, enabling users to navigate the dashboard and troubleshoot common issues.
-
-The Sales Performance Dashboard proved to be a valuable tool for the sales team, empowering them to identify growth opportunities, track sales targets, and make data-driven decisions. The combination of SQL, Power BI, and Excel provided a seamless and powerful solution, enhancing the efficiency and effectiveness of the sales process.
+# Methodology:
+1.    Data Extraction: The first step involves extracting the relevant data from the database using SQL queries. This process will involve joining multiple tables, filtering data, and aggregating information to prepare a comprehensive dataset for analysis.
+2.    Data Cleaning: Once the data is extracted, it will be cleaned to handle any missing or inconsistent values. Data normalization and standardization will be performed to ensure accuracy and uniformity in the analysis.
+3.    Data Transformation: The cleaned data will undergo transformations to derive essential metrics, such as total sales, average order value, customer demographics, popular pizza toppings, and sales by location and time.
+4.    Data Analysis: With the transformed data, various SQL queries will be employed to conduct in-depth analysis, such as identifying top-selling pizza varieties, calculating revenue trends, determining customer retention rates, and finding correlations between sales and external factors like promotions or weather conditions.
+5.    Power BI Integration: The analysis results will be integrated into Power BI, a powerful business intelligence tool. Interactive dashboards and visually appealing reports will be created to present the findings effectively. These reports will contain charts, graphs, and tables, enabling stakeholders to drill down into the data and discover insights easily.
+6.    Key Performance Indicators (KPIs): Key performance indicators will be defined based on the business objectives. Some potential KPIs include total revenue, average order value, customer acquisition rate, customer retention rate, and geographic distribution of sales.
+7.    Data Visualization: Power BI will be utilized to create visualizations, including bar charts, line graphs, heatmaps, and geographical maps. These visualizations will help in communicating trends and patterns effectively.
