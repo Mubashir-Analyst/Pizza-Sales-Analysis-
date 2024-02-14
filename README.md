@@ -1,16 +1,55 @@
-# Project Description: Pizza Sales Analysis Using SQL and Power BI
+# Pizza Sales Analysis (Power BI)
 
 # Introduction:
-The Pizza Sales Analysis project aims to provide valuable insights and actionable information to a pizza restaurant chain by analyzing their sales data. This project combines the power of SQL for data manipulation and extraction and Power BI for data visualization, allowing the stakeholders to make informed decisions, identify trends, and optimize their business strategies.
+The Pizza Sales Analysis project aims to provide valuable insights and actionable information to a pizza restaurant chain by analyzing their sales data. This project uses Power BI for data analysis and visualization, allowing the stakeholders to make informed decisions, identify trends, and optimize their business strategies. The project is divided into following phases:
 
-# Objective: 
-The main objective of this project is to analyze the pizza sales data to gain a comprehensive understanding of the restaurant's performance, identify top-selling products, peak sales periods, customer preferences, and geographic trends. By leveraging SQL and Power BI, the project will create interactive dashboards and reports that facilitate better decision-making and contribute to the restaurant chain's overall growth and success.
+# 1. Ask Phase:
+Problem Statement: Understand the performance and trends in pizza sales to optimize operations and maximize revenue.
+# Questions:
+What is the average order value?
+How many pizzas are typically ordered per transaction?
+Which days and months have the highest sales?
+What are the total number of orders, pizzas sold, and revenue generated?
+# 2. Prepare Phase:
+Data Collection: Gather pizza sales data with relevant columns (order_id, quantity, order_date, total_price, etc.).
+Data Cleaning: Ensure data integrity, handle missing values, and format columns as needed.
+Feature Engineering: Create new features like average order value, average pizzas per order, order day, and order month using DAX expressions provided.
+# 3. Process Phase:
+Data Transformation: Use Power Query to perform any necessary transformations like renaming columns, removing duplicates, or filtering data.
+Feature Calculation: Calculate new metrics such as total orders, total pizzas sold, and total revenue using DAX expressions provided.
+# 4. Analyze Phase:
+Exploratory Data Analysis (EDA): Explore the data visually and statistically to identify patterns, trends, and outliers.
+Key Findings:
 
-# Methodology:
-1.    Data Extraction: The first step involves extracting the relevant data from the database using SQL queries. This process will involve joining multiple tables, filtering data, and aggregating information to prepare a comprehensive dataset for analysis.
-2.    Data Cleaning: Once the data is extracted, it will be cleaned to handle any missing or inconsistent values. Data normalization and standardization will be performed to ensure accuracy and uniformity in the analysis.
-3.    Data Transformation: The cleaned data will undergo transformations to derive essential metrics, such as total sales, average order value, customer demographics, popular pizza toppings, and sales by location and time.
-4.    Data Analysis: With the transformed data, various SQL queries will be employed to conduct in-depth analysis, such as identifying top-selling pizza varieties, calculating revenue trends, determining customer retention rates, and finding correlations between sales and external factors like promotions or weather conditions.
-5.    Power BI Integration: The analysis results will be integrated into Power BI, a powerful business intelligence tool. Interactive dashboards and visually appealing reports will be created to present the findings effectively. These reports will contain charts, graphs, and tables, enabling stakeholders to drill down into the data and discover insights easily.
-6.    Key Performance Indicators (KPIs): Key performance indicators will be defined based on the business objectives. Some potential KPIs include total revenue, average order value, customer acquisition rate, customer retention rate, and geographic distribution of sales.
-7.    Data Visualization: Power BI will be utilized to create visualizations, including bar charts, line graphs, heatmaps, and geographical maps. These visualizations will help in communicating trends and patterns effectively.
+- Friday saw the highest number of pizza sales, while Sunday had the lowest.
+- The Classic pizza category was the most popular, while Chicken was the least.
+- Sales peaked from March to August but declined in February, October, and December.
+- Revenue was evenly distributed among pizza categories, with Supreme and Classic pizzas contributing significantly.
+- Large pizzas were the top-selling items, while small pizzas had lower sales.
+
+# 5. Present/Visualize Phase:
+Dashboard Design: Design an interactive dashboard using Power BI to visualize the data and insights.
+# Visualization:
+Daily trend for total orders
+Sales for each pizza category
+Monthly trend of sales
+Percentage of sales for each pizza category
+Total revenue generated by pizza category
+Pizza sales percentage by pizza size
+# Conclusion:
+Quantifiable Achievements:
+Increased understanding of average order value and pizzas per order.
+Identified peak sales days and months.
+Quantified total orders, pizzas sold, and revenue generated.
+# Impact on Business:
+Optimization of menu offerings based on popular pizza categories.
+Staffing and inventory management based on peak sales days and months.
+Pricing strategies based on average order value and revenue insights.
+Marketing campaigns targeted towards high-performing pizza categories.
+# Recommendations:
+Introduce promotions or specials on high-margin pizzas to boost revenue.
+Analyze customer feedback and preferences to innovate menu offerings.
+Implement loyalty programs to incentivize repeat orders and increase average order value.
+
+![Pizza Sales Pic](https://github.com/Mubashir-Analyst/Pizza-Sales-Analysis-/assets/134926611/24b98880-61d5-449a-be39-ad7a8d3b0645)
+
