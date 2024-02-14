@@ -7,8 +7,11 @@ The Pizza Sales Analysis project aims to provide valuable insights and actionabl
 Problem Statement: Understand the performance and trends in pizza sales to optimize operations and maximize revenue.
 # Questions:
 What is the average order value?
+
 How many pizzas are typically ordered per transaction?
+
 Which days and months have the highest sales?
+
 What are the total number of orders, pizzas sold, and revenue generated?
 # 2. Prepare Phase:
 Data Collection: Gather pizza sales data with relevant columns (order_id, quantity, order_date, total_price, etc.).
