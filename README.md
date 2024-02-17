@@ -6,13 +6,12 @@ The Pizza Sales Analysis project aims to provide valuable insights and actionabl
 # 1. Ask Phase:
 Problem Statement: Understand the performance and trends in pizza sales to optimize operations and maximize revenue.
 # Questions:
-What is the average order value?
 
-How many pizzas are typically ordered per transaction?
+- What is the average order value?
+- How many pizzas are typically ordered per transaction?
+- Which days and months have the highest sales?
+- What are the total number of orders, pizzas sold, and revenue generated?
 
-Which days and months have the highest sales?
-
-What are the total number of orders, pizzas sold, and revenue generated?
 # 2. Collection Phase:
 Gather pizza sales data with relevant columns (order_id, quantity, order_date, total_price, etc.).
 Data Cleaning: Ensure data integrity, handle missing values, and format columns as needed.
@@ -32,6 +31,7 @@ Key Findings:
 
 # 5. Present/Visualize Phase:
 Dashboard Design: Design an interactive dashboard using Power BI to visualize the data and insights.
+
 ![Pizza Sales Pic](https://github.com/Mubashir-Analyst/Pizza-Sales-Analysis-/assets/134926611/24b98880-61d5-449a-be39-ad7a8d3b0645)
 # Conclusion:
 Quantifiable Achievements:
